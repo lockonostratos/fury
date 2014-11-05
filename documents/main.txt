@@ -1,0 +1,2 @@
+export MONGO_URL=mongodb://localhost:27017/furyEngine
+export MONGO_URL=mongodb://gera.vn/edsBeta

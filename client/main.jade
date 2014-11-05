@@ -1,0 +1,22 @@
+head
+  title hello
+
+body
+  h1 Welcome to Meteor!
+  +hello
+
+template(name="hello")
+  button Click Me
+  p You've pressed the button {{counter}} times.
+  h1 CUSTOMERS:
+  each customers
+    span {{name}};
+  h1 ORDERS:
+  each orders
+    span {{finalPrice}};
+  h1 PROFILES:
+  each profiles
+    span {{fullName}}
+  h1 USERS:
+  each users
+    span {{_id}}
